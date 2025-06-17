@@ -1,4 +1,5 @@
 import React from "react";
+import { EventItem } from "./EventItem";
 
 const EventList = () => {
   const [events, setEvents] = useState([]);
@@ -9,8 +10,16 @@ const EventList = () => {
       setEvents(response);
     }
   };
-  useEffect(() => {}, []);
+  useEffect(() => {
+    getEvents();
+  }, []);
 
-  return <section className="event-list"></section>;
+  return (
+    <section className="events">
+      {events.map((event) => (
+        <EventItem key={event.id} item={event} />
+      ))}
+    </section>
+  );
 };
 export default EventList;
