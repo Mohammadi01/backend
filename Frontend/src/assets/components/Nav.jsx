@@ -1,10 +1,11 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <Nav>
-      <Nav.Link to="/">Events</Nav.Link>
-    </Nav>
+    <nav>
+      <NavLink to="/">Events</NavLink>
+    </nav>
   );
 };
 

@@ -8,9 +8,9 @@ const EventPage = () => {
   return (
     <div className="portal-wrapper">
       <Nav />
+      
       <Header />
       <main>
-        <p>hello</p>
         <EventList />
       </main>
       <Footer />

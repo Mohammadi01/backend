@@ -1,8 +1,9 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-const EventDetailsPage = () => {
+const BookingEvent = () => {
   const { id } = useParams();
+
   const [event, setEvent] = useState({});
   const getEvents = async () => {
     const res = await fetch(
@@ -19,13 +20,11 @@ const EventDetailsPage = () => {
     getEvents();
   }, []);
 
-  
   return (
-    <div className="event-details">
-      <h1>{event.title}</h1>
-      <Link to={`/events/booking/${event.id}`}>Book Event</Link>
+    <div>
+      <h1>BookingEvent - {event.title}</h1>
     </div>
   );
 };
 
-export default EventDetailsPage;
+export default BookingEvent;
