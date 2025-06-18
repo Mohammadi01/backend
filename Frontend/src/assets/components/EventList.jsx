@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 const EventList = () => {
   const [events, setEvents] = useState([]);
   const getEvents = async () => {
-    console.log("here");
     const res = await fetch(
       "https://eventservice3-aucbb5b8bze5cygv.swedencentral-01.azurewebsites.net/api/Events"
     );

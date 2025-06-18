@@ -1,6 +1,8 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 const EventDetailsPage = () => {
   const { id } = useParams();
   const [event, setEvent] = useState({});
@@ -11,15 +13,15 @@ const EventDetailsPage = () => {
     if (res.ok) {
       const response = await res.json();
       setEvent(response.result);
+      console.log("Eventt fetched successfully:", response.result);
     } else {
-      console.error("Failed to fetch events");
+      console.error("Failed to fetch the event");
     }
   };
   useEffect(() => {
     getEvents();
   }, []);
 
-  
   return (
     <div className="event-details">
       <h1>{event.title}</h1>
