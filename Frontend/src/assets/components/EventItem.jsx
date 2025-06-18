@@ -1,9 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export const EventItem = ({ item }) => {
+const EventItem = ({ item }) => {
   return (
-    <div className="event-card">
-      <div>{item.tile}</div>
-    </div>
+    <Link to={`/events/${item.id}`}>
+      <div className="event-card">
+        <div>{item.title}</div>
+      </div>
+    </Link>
   );
 };
+
+export default EventItem;

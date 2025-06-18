@@ -15,12 +15,9 @@ public class EventsController(IEventService eventService) : ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
-        var result = await _eventService.GetEventsAsync();
-        if (result.Success)
-        {
-            return Ok(result.Result);
-        }
-        return BadRequest(result.Error);
+        var events = await _eventService.GetEventsAsync();
+        return Ok(events);
+
     }
 
     [HttpGet("{eventId}")]

@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "../components/Nav";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import EventList from "../components/EventList";
 
 const EventPage = () => {
   return (
@@ -9,7 +10,8 @@ const EventPage = () => {
       <Nav />
       <Header />
       <main>
-        <EventList></EventList>
+        <p>hello</p>
+        <EventList />
       </main>
       <Footer />
     </div>

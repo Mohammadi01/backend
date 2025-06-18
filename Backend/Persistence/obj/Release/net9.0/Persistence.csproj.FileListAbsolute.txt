@@ -1,0 +1,15 @@
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/bin/Release/net9.0/Persistence.deps.json
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/bin/Release/net9.0/Persistence.runtimeconfig.json
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/bin/Release/net9.0/Persistence.dll
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/bin/Release/net9.0/Persistence.pdb
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/obj/Release/net9.0/Persistence.csproj.AssemblyReference.cache
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/obj/Release/net9.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/obj/Release/net9.0/Persistence.AssemblyInfoInputs.cache
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/obj/Release/net9.0/Persistence.AssemblyInfo.cs
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/obj/Release/net9.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/obj/Release/net9.0/Persistence.sourcelink.json
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/obj/Release/net9.0/Persistence.dll
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/obj/Release/net9.0/refint/Persistence.dll
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/obj/Release/net9.0/Persistence.pdb
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/obj/Release/net9.0/Persistence.genruntimeconfig.cache
+/Users/mm/Desktop/Explore/Shahnaz/Distributed/project/project/Backend/Persistence/obj/Release/net9.0/ref/Persistence.dll
